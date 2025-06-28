@@ -1,0 +1,299 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quantum Innovations - Elevating Tomorrow's Technology</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts: Inter for modern typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Lucide Icons for crisp vector icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="light-theme">
+    <!-- Header and Navigation -->
+    <header class="main-header">
+        <nav class="container nav-bar">
+            <!-- Brand Logo/Name -->
+            <a href="#home" class="brand-logo">
+                <img src="https://placehold.co/40x40/3498db/FFFFFF?text=QI" alt="Quantum Innovations Logo" class="logo-img">
+                <span class="brand-name">Quantum Innovations</span>
+            </a>
+
+            <!-- Desktop Navigation Links -->
+            <div class="nav-links" id="navbarNav">
+                <a href="#home" class="nav-item active" data-section="home">
+                    <i data-lucide="home" class="icon"></i>
+                    <span>Home</span>
+                </a>
+                <a href="#about" class="nav-item" data-section="about">
+                    <i data-lucide="info" class="icon"></i>
+                    <span>About Us</span>
+                </a>
+                <a href="#products" class="nav-item" data-section="products">
+                    <i data-lucide="package" class="icon"></i>
+                    <span>Products</span>
+                </a>
+                <a href="#contact" class="nav-item" data-section="contact">
+                    <i data-lucide="mail" class="icon"></i>
+                    <span>Contact</span>
+                </a>
+            </div>
+
+            <!-- Header Actions: Sign In, Dark Mode Toggle -->
+            <div class="header-actions">
+                <button id="signInBtn" class="btn btn-secondary">
+                    <i data-lucide="user" class="icon"></i>
+                    <span>Sign In</span>
+                </button>
+                <button id="darkModeToggle" class="dark-mode-toggle" aria-label="Toggle dark mode">
+                    <i data-lucide="sun" class="sun-icon"></i>
+                    <i data-lucide="moon" class="moon-icon"></i>
+                </button>
+                <!-- Mobile Menu Toggle -->
+                <button class="menu-toggle" aria-label="Open menu" id="menuToggle">
+                    <i data-lucide="menu" class="icon"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="hero-content">
+                <h1 class="hero-title animate-fade-in-up">The Future of Innovation. Today.</h1>
+                <p class="hero-subtitle animate-fade-in-up-delay">
+                    Crafting groundbreaking technology that redefines possibilities and empowers your world.
+                </p>
+                <a href="#products" class="btn btn-primary animate-fade-in-up-delay-2">
+                    Explore Our Creations <i data-lucide="arrow-right" class="icon"></i>
+                </a>
+            </div>
+        </section>
+
+        <!-- Features/Why Choose Us Section -->
+        <section id="features" class="features-section section-padding">
+            <div class="container">
+                <h2 class="section-title animate-fade-in">Why Choose Quantum Innovations?</h2>
+                <div class="features-grid">
+                    <div class="feature-card animate-scale-in">
+                        <i data-lucide="gem" class="feature-icon"></i>
+                        <h3 class="feature-title">Unrivaled Quality</h3>
+                        <p class="feature-description">Every product is engineered with precision and built to last, ensuring peak performance.</p>
+                    </div>
+                    <div class="feature-card animate-scale-in-delay">
+                        <i data-lucide="lightbulb" class="feature-icon"></i>
+                        <h3 class="feature-title">Pioneering Innovation</h3>
+                        <p class="feature-description">We lead the charge in research and development, bringing you tomorrow's tech, today.</p>
+                    </div>
+                    <div class="feature-card animate-scale-in-delay-2">
+                        <i data-lucide="award" class="feature-icon"></i>
+                        <h3 class="feature-title">Exceptional Support</h3>
+                        <p class="feature-description">Our dedicated team is always ready to assist, ensuring a seamless experience.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Us Section -->
+        <section id="about" class="about-section section-padding">
+            <div class="container about-grid">
+                <div class="about-image-wrapper animate-slide-in-left">
+                    <img src="https://placehold.co/800x550/2d3748/cbd5e1?text=Our+Vision" alt="Our Vision">
+                </div>
+                <div class="about-content-text animate-fade-in-up-delay">
+                    <h2 class="section-title text-left">Our Journey: Innovating for a Better World</h2>
+                    <p class="about-paragraph">
+                        Quantum Innovations began with a singular vision: to revolutionize the way people interact with technology.
+                        Since our inception, we've been driven by a passion for excellence and a commitment to pushing the boundaries
+                        of what's possible in the digital realm.
+                    </p>
+                    <p class="about-paragraph">
+                        We are a collective of brilliant minds—engineers, designers, and strategists—united by the belief
+                        that technology should not just solve problems, but inspire and empower. Our rigorous approach to
+                        R&D ensures that every product we launch is not only advanced but also intuitive and seamlessly
+                        integrated into daily life.
+                    </p>
+                    <p class="about-paragraph">
+                        Join us as we continue to shape the future, one innovation at a time.
+                    </p>
+                    <a href="#contact" class="btn btn-outline animate-fade-in-up-delay-3">Learn More <i data-lucide="arrow-right" class="icon"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Products Section -->
+        <section id="products" class="products-section section-padding">
+            <div class="container">
+                <h2 class="section-title animate-fade-in">Discover Our Leading Products</h2>
+                <div class="products-grid">
+                    <!-- Product Card 1 -->
+                    <div class="product-card animate-slide-in-up">
+                        <img src="https://placehold.co/600x400/1f2937/a0aec0?text=Aura+Laptop+Pro" alt="Aura Laptop Pro" class="product-image">
+                        <div class="product-info">
+                            <h3 class="product-name">Aura Laptop Pro</h3>
+                            <p class="product-description">Unleash unparalleled performance and stunning visuals for creative professionals.</p>
+                            <span class="product-price">$2,499</span>
+                            <button class="btn btn-card-action">View Details</button>
+                        </div>
+                    </div>
+                    <!-- Product Card 2 -->
+                    <div class="product-card animate-slide-in-up-delay">
+                        <img src="https://placehold.co/600x400/1f2937/a0aec0?text=Nexus+Smartwatch" alt="Nexus Smartwatch" class="product-image">
+                        <div class="product-info">
+                            <h3 class="product-name">Nexus Smartwatch</h3>
+                            <p class="product-description">Your ultimate health and connectivity companion, sleek and powerful.</p>
+                            <span class="product-price">$349</span>
+                            <button class="btn btn-card-action">View Details</button>
+                        </div>
+                    </div>
+                    <!-- Product Card 3 -->
+                    <div class="product-card animate-slide-in-up-delay-2">
+                        <img src="https://placehold.co/600x400/1f2937/a0aec0?text=Echo+Soundbar+360" alt="Echo Soundbar 360" class="product-image">
+                        <div class="product-info">
+                            <h3 class="product-name">Echo Soundbar 360</h3>
+                            <p class="product-description">Immersive 360-degree audio that transforms your living room into a concert hall.</p>
+                            <span class="product-price">$699</span>
+                            <button class="btn btn-card-action">View Details</button>
+                        </div>
+                    </div>
+                    <!-- Product Card 4 -->
+                    <div class="product-card animate-slide-in-up-delay-3">
+                        <img src="https://placehold.co/600x400/1f2937/a0aec0?text=Pro+Vision+Display" alt="Pro Vision Display" class="product-image">
+                        <div class="product-info">
+                            <h3 class="product-name">Pro Vision Display</h3>
+                            <p class="product-description">Experience colors like never before on our stunning high-resolution display.</p>
+                            <span class="product-price">$1,199</span>
+                            <button class="btn btn-card-action">View Details</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="testimonials-section section-padding">
+            <div class="container">
+                <h2 class="section-title animate-fade-in">Hear From Our Valued Customers</h2>
+                <div class="testimonials-grid">
+                    <div class="testimonial-card animate-fade-in-delay-1">
+                        <p class="testimonial-text">
+                            "Quantum Innovations products are truly a class apart. The Aura Laptop Pro changed how I work!"
+                        </p>
+                        <cite class="testimonial-author">- Alice Johnson, Creative Director</cite>
+                    </div>
+                    <div class="testimonial-card animate-fade-in-delay-2">
+                        <p class="testimonial-text">
+                            "The Nexus Smartwatch is my daily essential. Seamless integration and incredible features."
+                        </p>
+                        <cite class="testimonial-author">- Ben Carter, Fitness Enthusiast</cite>
+                    </div>
+                    <div class="testimonial-card animate-fade-in-delay-3">
+                        <p class="testimonial-text">
+                            "Customer support is prompt and incredibly helpful. Quantum Innovations truly cares about its users."
+                        </p>
+                        <cite class="testimonial-author">- Clara Davies, Tech Reviewer</cite>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action Section -->
+        <section class="cta-section section-padding">
+            <div class="container cta-content animate-fade-in">
+                <h2 class="cta-title">Ready to Experience the Future?</h2>
+                <p class="cta-subtitle">Join thousands of satisfied users who trust Quantum Innovations for their tech needs.</p>
+                <a href="#products" class="btn btn-primary cta-btn">
+                    Discover Now <i data-lucide="zap" class="icon"></i>
+                </a>
+            </div>
+        </section>
+
+        <!-- Contact Us Section -->
+        <section id="contact" class="contact-section section-padding">
+            <div class="container">
+                <h2 class="section-title animate-fade-in">Get In Touch</h2>
+                <div class="contact-content-wrapper animate-fade-in-delay">
+                    <div class="contact-info">
+                        <h3>Connect With Us</h3>
+                        <p><i data-lucide="map-pin" class="icon"></i> 123 Tech Avenue, Innovation City, QI 90210</p>
+                        <p><i data-lucide="phone" class="icon"></i> +1 (555) 123-4567</p>
+                        <p><i data-lucide="mail" class="icon"></i> support@quantuminnovations.com</p>
+                        <div class="social-links">
+                            <a href="#" aria-label="Facebook"><i data-lucide="facebook" class="icon"></i></a>
+                            <a href="#" aria-label="Twitter"><i data-lucide="twitter" class="icon"></i></a>
+                            <a href="#" aria-label="Instagram"><i data-lucide="instagram" class="icon"></i></a>
+                            <a href="#" aria-label="LinkedIn"><i data-lucide="linkedin" class="icon"></i></a>
+                        </div>
+                    </div>
+                    <form class="contact-form" id="contactForm">
+                        <h3>Send Us a Message</h3>
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" placeholder="John Doe" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" name="email" placeholder="john.doe@example.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" placeholder="Inquiry about products">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" name="message" rows="6" placeholder="Type your message here..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-submit">Send Message <i data-lucide="send" class="icon"></i></button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container footer-content">
+            <div class="footer-col">
+                <a href="#home" class="brand-logo footer-logo">
+                    <img src="https://placehold.co/40x40/3498db/FFFFFF?text=QI" alt="Quantum Innovations Logo" class="logo-img">
+                    <span class="brand-name">Quantum Innovations</span>
+                </a>
+                <p class="footer-tagline">Innovating for a smarter, connected future.</p>
+            </div>
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Legal</h3>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Cookie Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook"><i data-lucide="facebook" class="icon"></i></a>
+                    <a href="#" aria-label="Twitter"><i data-lucide="twitter" class="icon"></i></a>
+                    <a href="#" aria-label="instagram"><i data-lucide="instagram" class="icon"></i></a>
+                    <a href="#" aria-label="linkedin"><i data-lucide="linkedin" class="icon"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; <span id="currentYear"></span> Quantum Innovations. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
